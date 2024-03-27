@@ -1,11 +1,23 @@
-import React from 'react';
+import   React from 'react';
 import "./Header.css";
 import { Link } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
 import Logo from "../src/assets/logo.jpg";
 import { ShoppingBasket } from '@mui/icons-material';
+import "./Product"
+import { useStateValue } from './StateProvider';
+
 
  const Header = () => {
+//  const [basket]= useStateValue();
+ 
+   
+  //  const [{basket}]= useStateValue();
+   const [{ basket }] = useStateValue();
+  // const [ state] =useStateValue();
+  // // Access the basket property from the state
+  // const { basket } = state;
+
   return (
     <>
     <nav className='header'>
@@ -45,7 +57,7 @@ import { ShoppingBasket } from '@mui/icons-material';
          <Link className='link' to="/checkout">
          <div className='basket'>
           <ShoppingBasket/>
-         <span className='option2 basket_count'>0</span>
+         <span className='option2 basket_count'>{basket?.length}</span>
 
          </div>
 

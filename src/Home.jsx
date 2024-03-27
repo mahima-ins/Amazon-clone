@@ -9,7 +9,7 @@ const Home = () => {
       <img className="image"src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"></img>
     <div className='home_row'>
     <Product 
-    id ="123"
+    id ="1"
     title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
     price={11.967}
     ratings={5}
@@ -17,7 +17,7 @@ const Home = () => {
 
     />
     <Product 
-    id ="123"
+    id ="2"
     title="PlayGo T20 Ultralight Wireless Earbuds With ENC Environmental Noise Reduction and EBEL Drivers | HD Call Quality | Sensory Controls | 6 Month Warranty"
     price={11.967}
     ratings={4}
@@ -27,7 +27,7 @@ const Home = () => {
     </div>
     <div className='home_row'>
     <Product 
-    id ="123"
+    id ="3"
     title="Alewa Ranger Amoled Round Smartwatch | BT Call | IP68 Waterproof | Always On Display | 410mah Battery (Black/Gray/Green)"
     price={32.967}
     ratings={5}
@@ -35,7 +35,7 @@ const Home = () => {
 
     />
     <Product 
-    id ="123"
+    id ="4"
     title="Storage Box Foldable Large Capacity Oxford Cloth Clothes Sundries Organizer Case For Household 66ltr"
     price={15.967}
     ratings={3}
@@ -43,7 +43,7 @@ const Home = () => {
 
     />
     <Product 
-    id ="123"
+    id ="5"
     title="Home Use Stand Mixer Grinder Juicer Smoothie Blender Mixture Grinder in Kitchen"
     price={23.967}
     ratings={4}
@@ -54,7 +54,7 @@ const Home = () => {
 
     <div className='home_row'>
     <Product 
-    id ="123"
+    id ="6"
     title="Dahua 22 Inch Borderless Monitor 75Hz FHD"
     price={111.967}
     ratings={5}

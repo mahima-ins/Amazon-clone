@@ -4,6 +4,9 @@ import './App.css'
 import { BrowserRouter, Routes,  Route} from "react-router-dom" ;
 import Header from './Header';
 import Home from './Home';
+import { StateProvider } from './StateProvider.jsx'
+ import reducer, { initialState } from './reducer.jsx'
+
 
 
 
@@ -13,7 +16,11 @@ function App() {
   return (
     
     <BrowserRouter>
-    <Header></Header>
+   
+    <StateProvider initialState={initialState} reducer={reducer}> 
+    <Header/>
+  
+  
     
        <Routes>
        
@@ -27,6 +34,7 @@ function App() {
     
     
      </Routes>
+     </StateProvider>
     </BrowserRouter>
   
     
