@@ -1,5 +1,7 @@
 .checkoutProduct{
     display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cimage{
@@ -8,7 +10,8 @@
     height:180px;
 }
 
-.cinfo{
+.info{
+    margin-top:30px;
     padding-left: 20px;
 }
 
@@ -21,7 +24,7 @@
     display:flex;
 
 }
-.cinfo > button{
+.info > button{
     background-color: #f0c14b;
     border:1px solid;
     margin-top: 10px;

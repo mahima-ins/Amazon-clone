@@ -14,6 +14,8 @@ const Checkout = () => {
     ) : (
     <div>
         <h2>Your shopping Basket</h2>
+        
+        <hr></hr>
     </div>
     )}
 
