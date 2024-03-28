@@ -6,6 +6,7 @@ import Logo from "../src/assets/logo.jpg";
 import { ShoppingBasket } from '@mui/icons-material';
 import "./Product"
 import { useStateValue } from './StateProvider';
+import Checkout from './Checkout';
 
 
  const Header = () => {
@@ -55,6 +56,7 @@ import { useStateValue } from './StateProvider';
          </Link>
 
          <Link className='link' to="/checkout">
+         
          <div className='basket'>
           <ShoppingBasket/>
          <span className='option2 basket_count'>{basket?.length}</span>

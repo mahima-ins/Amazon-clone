@@ -6,6 +6,7 @@ import Header from './Header';
 import Home from './Home';
 import { StateProvider } from './StateProvider.jsx'
  import reducer, { initialState } from './reducer.jsx'
+ import Checkout from './Checkout.jsx';
 
 
 
@@ -27,6 +28,10 @@ function App() {
        {/* <Route path="/" element={<Header/>} /> */}
       
        <Route path="/" element={<Home/>} />
+       <Route path="/checkout" element={<Checkout/>}/>
+       
+       
+
        
     
     
